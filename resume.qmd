@@ -1,89 +1,92 @@
 ---
 layout: cv
-title: Issac Newton's CV
+title: Cassidy Sadler Resume
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Cassidy Sadler
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+ +1 435 512 8467  
+ [cassidysadler39@gmail.com](mailto:cassidysadler39@gmail.com)  
+🔗 [LinkedIn: cassidy-sadler39](https://www.linkedin.com/in/cassidy-sadler39)
 
+---
 
-## Currently
+##  Education
 
-Standing on the shoulders of giants
+**Bachelor's Degree in Accounting**  
+*Anticipated Graduation: Fall 2025*  
+Brigham Young University – Idaho | Rexburg, Idaho
 
-### Specialized in
+- Certificate in Data Science *(In Progress)*
+- Certificate in Microsoft Excel
+- Relevant coursework: Micro/Macro Economics, Spreadsheet Analysis, Business Analytics, Programming/Database Courses, Managerial and Intermediate Financial Accounting, Income Taxation, VBA, Tableau
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+---
 
+##  Internships
 
-### Research interests
+### Visitor Center Ranger  
+*Castle Rocks State Park, City of Rocks National Reserve — Almo, Idaho*  
+**May 2024 – Sept 2024**
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+- Oversaw visitor centers for two parks  
+- Taught classes on animals, invasive species, and related topics  
+- Maintained inventory and updated social media pages  
 
+### Company Team Member  
+*Integrated Business Core — Rexburg, Idaho*  
+**April 2024 – July 2024**
 
-## Education
+- Built a company from scratch with 13 peers  
+- Created finance, marketing, and operations teams  
+- Developed a production schedule to maintain a steady product flow  
 
-`1654-1660`
-__The King's School, Grantham.__
+---
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+## Selected Work Experience
 
-- Sizar
+### Small Business Management - Teaching Assistant  
+*Brigham Young University–Idaho — Rexburg, Idaho*  
+**Jan 2025 – Present**
 
-`1667 - death`
-__Trinity College, Cambridge__
+- Evaluated and graded assignments with accuracy and efficiency  
+- Assisted students and fostered a positive learning environment  
 
-- Fellow
+### Front Desk Associate  
+*H&R Block — Rexburg, Idaho*  
+**Jan 2024 – Apr 2024**
 
+- Directed customers to the appropriate tax professionals  
+- Handled 20+ calls daily and managed essential documentation  
 
+### Shift Lead  
+*Crumbl Cookies — Logan, UT*  
+**Aug 2021 – Aug 2022**
 
-## Awards
+- Developed leadership, organization, and catering skills  
+- Managed inventory, equipment, and tracked shrinkage  
+- Maintained team efficiency during shifts  
 
-`2012`
-President, *Royal Society*, London, UK
+---
 
-Associate, *French Academy of Science*, Paris, France
+## 🛠 Skills & Proficiencies
 
+- **Microsoft Excel**  
+- **Visual Basic Applications (VBA)**  
+- **Tableau**  
+- **Customer Service (6+ years)**  
+- Time Management  
+- Flexibility  
+- Multitasking  
+- Stress Management  
+- Analytical Thinking  
+- Accuracy & Efficiency  
+- Professionalism  
+- Passionate Attitude
 
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+---
 
 
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: April 2025 -->
