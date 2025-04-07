@@ -1,0 +1,297 @@
+[
+  {
+    "objectID": "Templates/DS350_Template.html",
+    "href": "Templates/DS350_Template.html",
+    "title": "Weekly Notes",
+    "section": "",
+    "text": "Weekly Notes\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "story_telling.html",
+    "href": "story_telling.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Story Telling"
+    ]
+  },
+  {
+    "objectID": "story_telling.html#title-2-header",
+    "href": "story_telling.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Story Telling"
+    ]
+  },
+  {
+    "objectID": "ml.html",
+    "href": "ml.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "ml.html#title-2-header",
+    "href": "ml.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "githubPush_notes.html",
+    "href": "githubPush_notes.html",
+    "title": "Cassidy Sadler - Data Science Portfolio",
+    "section": "",
+    "text": "#30 remove changes to yml code to be back to the normal due to crash #30 -name of push in reference: fixed week error for ds350 on index file - after the push reference I started messing with the yamal code and it went south - so this push revernts the yml code back to what it was for this push: fixed week error for ds350 on index file\n#31 testing change from gh-pages to main under build and deployment #31 - testing the setting on git hub settings/pages/branch/main - change from gh-pages to main\n#32 incorrect deployment fixed #32 - the deployment only published my readme fileand not the index file with all links - I’m going to render site within r studio to see if that fixes. - keeping github settings from push #31\n#33 reverting back to normal github push settings #33 - reverting back to make sure everything still runs as the default template - if succesful I’m going to save this copy as the default template - then I’m going to try and switch to doc site and see if that works - Important to note that I went back to gh-pages branch undoing push #31 - push #31 did not work out as it wasn’t reading the htmls at all.\n#34 one last try with ai advice #34 - I’m going to use the publish and quarto yml code ai gave and see what that does - I never tried both codes together but this one I will try both. - This ai notes are in my normal portfolio repository notes - I will need to combine notes on this but I will try to just work with this template for now.\n#35 reverting back to normal github push settings #35 - did not work - this error: Error: No file in /home/runner/work/DS350-website-template/DS350-website-template matched to [/requirements.txt or /pyproject.toml], make sure you have checked out the target repository - This file name is in the publish.yml but seems to be commmented out, and the libraries that will go in that file are in the publish.yml - maybe who ever build the publish.yml was running into trouble with the requirements.txt file so just skip it and added to publish - Other research has shown the requirements.txt file so obviously it is a needed file, but idk why this defualt template has it comment out and obviously no requirement.txt file is present\n#36 Trying docs format #36 - deleteting the publish.yml file - edited quarto.yml and index.qmd to reflect the docs format - this was done by mirroring the time series set up - When doing this, need to render the site in R studio and then push to github - done under Build - Render Website in R studio - on the github settings/pages/branch/main/docs - this is where the site is published and not template default of gh-pages/_site\n#37 Successful run w/ docs format #37 - # 36 ran successfully for the doc format - delete the publish.yml file - delete the .github site_libs and _site folders - they were link to the gh-pages push\n#38 Python qmd files for ds250 #38 - Erin’s ds250 projects cause some errors because of the python chunk codes. - my r studio hasnt been set up to run python code so I ran into a library error - I’m going to figure out how to make a folder that has this libraries installed and stored - this step would probably have to be ran in vs code or where ever the python code was created first (r studio or vs code) - because when creating the python code, it has to be ran to complete, but to run it has to be properly loaded in the environment. - I added the requirements.txt to the quarto.yml and created the requirements.txt file - I’m runnig this in vs code - This is a major issue that needs to be address to make sure python and R code files are ran properly when repository is clone into a new divice\n#39 Successful run w/ python qmd files for ds250 #39 - #38 ran successfully for the python qmd files - added the requirements.txt to the quarto.yml and created the requirements.txt file - ran the requirements.txt file in vs code - NEXT STEP IS TO CLONE ON A NEW DEVICE AND SEE HOW THE LIBRARY PROCESS WILL WORK. - WHAT WILL HAPPEN WHEN FIRST RENDER ON vs CODE VS r STUDIO. - The only thing change from my working template is the adding of the requirements.txt file, and nothing else changed.?\n#40 - deleted old gh-pages files, and added python requirements.txt file #40\nPush #36 on the template repository was successful with the doc format, so I will do the same here Push #38 & 39 on the template repository was updating to handle DS250 course work (using python and VS code) Was able to run Erin’s ds250 code on my vs code I’m not sure that fix the python library problem so I’m planning on testing to clone on a new device and see what happens I may have to inlcude code steps to make sure users download python libraries before rendering site in vs or r studio Idk how r studio will handle the python code though so it gets interesting for sure - Maybe first only rendering python files in vs code will probably be best, but this is like an extra step - Be nice to figure this out though So this push updates to docs format and includes python’s requirement.txt file\n#41 - removing unwanted files #41\ndeleted some other files from gh-pages also notice that when I pull, it pulls the gh-pages branch, so I have to switch back to main I also notice github had another branch name gh-pages, so I deleted that branch gonna do a run test to make sure everything runs find\n#42 - mkaing sure site is working #42\ntesting to see everything is working fine after deleting some old gh-pages files and removing old gh-pages branch from github\n#44 - updating to template only & making raw copy #44 - This push should serve as a copy of a working template for the DS350 & DS250 - This update handles the python code and the doc format, but I don’t know how it does when clone to a new device and how it will run in vs code vs R studio. - Need to research how this yml, index, and requirements will be handle in vs code vs R studio in new devices - I should work on adding a file names for Ds350 and Ds250 so it can be share - This should allow for me to edit yml code or other independent files - should allow others to upload qmd files, and adding new yml code should not be a problem\n#45 updating readme.md file to have instructions #45 - this push and probably next few will just be to update the readme.md file to have instructions.\n**#54 testing freeze: auto on the _quqarto.yml to expedite render website times #54**\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Exploration"
+    ]
+  },
+  {
+    "objectID": "exploration.html#title-2-header",
+    "href": "exploration.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Exploration"
+    ]
+  },
+  {
+    "objectID": "competition.html",
+    "href": "competition.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Competition"
+    ]
+  },
+  {
+    "objectID": "competition.html#title-2-header",
+    "href": "competition.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Competition"
+    ]
+  },
+  {
+    "objectID": "460_projects.html",
+    "href": "460_projects.html",
+    "title": "DS460 Projects",
+    "section": "",
+    "text": "Project 0\nProject 1\nProject 2\nProject 3\nProject 4\nProject 5\nProject 6"
+  },
+  {
+    "objectID": "460_projects.html#repo-for-all-my-projects",
+    "href": "460_projects.html#repo-for-all-my-projects",
+    "title": "DS460 Projects",
+    "section": "",
+    "text": "Project 0\nProject 1\nProject 2\nProject 3\nProject 4\nProject 5\nProject 6"
+  },
+  {
+    "objectID": "350_projects.html",
+    "href": "350_projects.html",
+    "title": "DS350 Projects",
+    "section": "",
+    "text": "Week 01\nWeek 02\nWeek 03\nWeek 04\nWeek 05\nWeek 06\nWeek 07\nWeek 08\nWeek 09\nWeek 10\nWeek 11\nWeek 12\nWeek 13"
+  },
+  {
+    "objectID": "350_projects.html#repo-for-all-my-projects",
+    "href": "350_projects.html#repo-for-all-my-projects",
+    "title": "DS350 Projects",
+    "section": "",
+    "text": "Week 01\nWeek 02\nWeek 03\nWeek 04\nWeek 05\nWeek 06\nWeek 07\nWeek 08\nWeek 09\nWeek 10\nWeek 11\nWeek 12\nWeek 13"
+  },
+  {
+    "objectID": "250_Projects/project5.html",
+    "href": "250_Projects/project5.html",
+    "title": "Client Report - Introduction",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "250_Projects/project3.html",
+    "href": "250_Projects/project3.html",
+    "title": "Client Report - Introduction",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "250_Projects/project1.html",
+    "href": "250_Projects/project1.html",
+    "title": "Client Report - Introduction",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "250_Projects/project0.html",
+    "href": "250_Projects/project0.html",
+    "title": "Client Report - Introduction",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "250_Projects/project2.html",
+    "href": "250_Projects/project2.html",
+    "title": "Client Report - Introduction",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "250_Projects/project4.html",
+    "href": "250_Projects/project4.html",
+    "title": "Client Report - Introduction",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "250_projects.html",
+    "href": "250_projects.html",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 0\nProject 1\nProject 2\nProject 3\nProject 4\nProject 5"
+  },
+  {
+    "objectID": "250_projects.html#repo-for-all-my-projects",
+    "href": "250_projects.html#repo-for-all-my-projects",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 0\nProject 1\nProject 2\nProject 3\nProject 4\nProject 5"
+  },
+  {
+    "objectID": "450_projects.html",
+    "href": "450_projects.html",
+    "title": "DS450 Projects",
+    "section": "",
+    "text": "Project 0\nProject 1\nProject 2\nProject 3\nProject 4\nProject 5\nProject 6"
+  },
+  {
+    "objectID": "450_projects.html#repo-for-all-my-projects",
+    "href": "450_projects.html#repo-for-all-my-projects",
+    "title": "DS450 Projects",
+    "section": "",
+    "text": "Project 0\nProject 1\nProject 2\nProject 3\nProject 4\nProject 5\nProject 6"
+  },
+  {
+    "objectID": "cleansing.html",
+    "href": "cleansing.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Cleansing"
+    ]
+  },
+  {
+    "objectID": "cleansing.html#title-2-header",
+    "href": "cleansing.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Cleansing"
+    ]
+  },
+  {
+    "objectID": "docs/350_Projects/Week_07/Car_Wash_25.html",
+    "href": "docs/350_Projects/Week_07/Car_Wash_25.html",
+    "title": "25 Car Wash",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "full_stack.html",
+    "href": "full_stack.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Full Stack"
+    ]
+  },
+  {
+    "objectID": "full_stack.html#title-2-header",
+    "href": "full_stack.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Full Stack"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "DS 350 Course Work\nWeek 1 . Week 2 . Week 3 . Week 4 . Week 5 . Week 6 . Week 7 . Week 8 . Week 9 . Week 10 . Week 11 . Week 12 . Week 13"
+  },
+  {
+    "objectID": "index.html#data-wrangling-and-visualization-projects---ds-350",
+    "href": "index.html#data-wrangling-and-visualization-projects---ds-350",
+    "title": "About Me",
+    "section": "",
+    "text": "DS 350 Course Work\nWeek 1 . Week 2 . Week 3 . Week 4 . Week 5 . Week 6 . Week 7 . Week 8 . Week 9 . Week 10 . Week 11 . Week 12 . Week 13"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Cassidy Sadler Resume",
+    "section": "",
+    "text": "+1 435 512 8467\ncassidysadler39@gmail.com\n🔗 LinkedIn: cassidy-sadler39\n\n\n\nBachelor’s Degree in Accounting\nAnticipated Graduation: Fall 2025\nBrigham Young University – Idaho | Rexburg, Idaho\n\nCertificate in Data Science (In Progress)\nCertificate in Microsoft Excel\nRelevant coursework: Micro/Macro Economics, Spreadsheet Analysis, Business Analytics, Programming/Database Courses, Managerial and Intermediate Financial Accounting, Income Taxation, VBA, Tableau\n\n\n\n\n\n\n\nCastle Rocks State Park, City of Rocks National Reserve — Almo, Idaho\nMay 2024 – Sept 2024\n\nOversaw visitor centers for two parks\n\nTaught classes on animals, invasive species, and related topics\n\nMaintained inventory and updated social media pages\n\n\n\n\nIntegrated Business Core — Rexburg, Idaho\nApril 2024 – July 2024\n\nBuilt a company from scratch with 13 peers\n\nCreated finance, marketing, and operations teams\n\nDeveloped a production schedule to maintain a steady product flow\n\n\n\n\n\n\n\n\nBrigham Young University–Idaho — Rexburg, Idaho\nJan 2025 – Present\n\nEvaluated and graded assignments with accuracy and efficiency\n\nAssisted students and fostered a positive learning environment\n\n\n\n\nH&R Block — Rexburg, Idaho\nJan 2024 – Apr 2024\n\nDirected customers to the appropriate tax professionals\n\nHandled 20+ calls daily and managed essential documentation\n\n\n\n\nCrumbl Cookies — Logan, UT\nAug 2021 – Aug 2022\n\nDeveloped leadership, organization, and catering skills\n\nManaged inventory, equipment, and tracked shrinkage\n\nMaintained team efficiency during shifts\n\n\n\n\n\n\n\nMicrosoft Excel\n\nVisual Basic Applications (VBA)\n\nTableau\n\nCustomer Service (6+ years)\n\nTime Management\n\nFlexibility\n\nMultitasking\n\nStress Management\n\nAnalytical Thinking\n\nAccuracy & Efficiency\n\nProfessionalism\n\nPassionate Attitude"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Cassidy Sadler Resume",
+    "section": "",
+    "text": "Bachelor’s Degree in Accounting\nAnticipated Graduation: Fall 2025\nBrigham Young University – Idaho | Rexburg, Idaho\n\nCertificate in Data Science (In Progress)\nCertificate in Microsoft Excel\nRelevant coursework: Micro/Macro Economics, Spreadsheet Analysis, Business Analytics, Programming/Database Courses, Managerial and Intermediate Financial Accounting, Income Taxation, VBA, Tableau"
+  },
+  {
+    "objectID": "resume.html#internships",
+    "href": "resume.html#internships",
+    "title": "Cassidy Sadler Resume",
+    "section": "",
+    "text": "Castle Rocks State Park, City of Rocks National Reserve — Almo, Idaho\nMay 2024 – Sept 2024\n\nOversaw visitor centers for two parks\n\nTaught classes on animals, invasive species, and related topics\n\nMaintained inventory and updated social media pages\n\n\n\n\nIntegrated Business Core — Rexburg, Idaho\nApril 2024 – July 2024\n\nBuilt a company from scratch with 13 peers\n\nCreated finance, marketing, and operations teams\n\nDeveloped a production schedule to maintain a steady product flow"
+  },
+  {
+    "objectID": "resume.html#selected-work-experience",
+    "href": "resume.html#selected-work-experience",
+    "title": "Cassidy Sadler Resume",
+    "section": "",
+    "text": "Brigham Young University–Idaho — Rexburg, Idaho\nJan 2025 – Present\n\nEvaluated and graded assignments with accuracy and efficiency\n\nAssisted students and fostered a positive learning environment\n\n\n\n\nH&R Block — Rexburg, Idaho\nJan 2024 – Apr 2024\n\nDirected customers to the appropriate tax professionals\n\nHandled 20+ calls daily and managed essential documentation\n\n\n\n\nCrumbl Cookies — Logan, UT\nAug 2021 – Aug 2022\n\nDeveloped leadership, organization, and catering skills\n\nManaged inventory, equipment, and tracked shrinkage\n\nMaintained team efficiency during shifts"
+  },
+  {
+    "objectID": "resume.html#skills-proficiencies",
+    "href": "resume.html#skills-proficiencies",
+    "title": "Cassidy Sadler Resume",
+    "section": "",
+    "text": "Microsoft Excel\n\nVisual Basic Applications (VBA)\n\nTableau\n\nCustomer Service (6+ years)\n\nTime Management\n\nFlexibility\n\nMultitasking\n\nStress Management\n\nAnalytical Thinking\n\nAccuracy & Efficiency\n\nProfessionalism\n\nPassionate Attitude"
+  },
+  {
+    "objectID": "Templates/DS250_Template.html",
+    "href": "Templates/DS250_Template.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Back to top"
+  }
+]
