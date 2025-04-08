@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "DS460 Projects"
 subtitle: "Repo for all my Projects"
 # use quarto markdown to 
@@ -12,4 +12,4 @@ subtitle: "Repo for all my Projects"
 - [Project 3](/460_Projects/project3.qmd)
 - [Project 4](/460_Projects/project4.qmd)
 - [Project 5](/460_Projects/project5.qmd)
-- [Project 6](/460_Projects/project6.qmd)
+- [Project 6](/460_Projects/project6.qmd) -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "DS350 Projects"
 subtitle: "Repo for all my Projects"
 # use quarto markdown to 
@@ -17,5 +17,5 @@ subtitle: "Repo for all my Projects"
 - [Week 10](/350_Projects/Week_10/week_10.qmd)
 - [Week 11](/350_Projects/Week_11/week_11.qmd)
 - [Week 12](/350_Projects/Week_12/week_12.qmd)
-- [Week 13](/350_Projects/Week_13/week_13.qmd)
+- [Week 13](/350_Projects/Week_13/week_13.qmd) -->
 
